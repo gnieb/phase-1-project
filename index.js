@@ -7,10 +7,8 @@ fetch("http://localhost:3000/drinks")
 .then(r => r.json())
 .then(drinksArray => {
     drinksArray.forEach(drink => 
-    
-
-renderDrinks(drink) 
-)}
+    renderDrinks(drink) 
+    )}
 )
 
 function renderDrinks(drinkObj){
@@ -18,9 +16,11 @@ function renderDrinks(drinkObj){
 const image = document.createElement("img")
 image.src = drinkObj.strDrinkThumb
 topContainer.append(image)
-image.addEventListener("click", () => {renderDetails(drinkObj)}
-
-)}
+image.addEventListener("click", () => {renderDetails(drinkObj)})
+image.addEventListener('mouseover', () => {
+image.className = 'onMouseover'
+})
+}
 
 function renderDetails(drinkObj){
 const h1= document.querySelector(".name")
@@ -52,4 +52,18 @@ margForm.addEventListener('submit', (e) => {
     margForm.reset()
 
 })
+
+let addMarg = false
+const addButton = document.getElementById('add-new-marg')
+addButton.addEventListener('click', () => {
+ addMarg = !addMarg
+ if (addMarg) {
+    margForm.style.display = "block"
+ }
+ else {
+    margForm.style.display = "none"
+ }
+} )
+
+
 

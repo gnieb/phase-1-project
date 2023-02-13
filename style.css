@@ -12,9 +12,23 @@ body {
 #top-container img {
     margin: 10px;
 }
+#margarita-details {
+    margin: 50px;
+}
 
 #margarita-details img {
    height: 400px; 
 }
 
+.onMouseover {
+    cursor: pointer;
+}
+
+#add-new-marg {
+    margin: 20px;
+}
+
+form {
+    display: none;
+}
 

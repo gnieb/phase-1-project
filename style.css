@@ -1,3 +1,20 @@
 body {
     text-align: center;
 }
+
+#top-container {
+    display: flex;
+    height: 200px;
+    margin: 1rem 0;
+    padding: 10px;
+    overflow-x: auto;
+}
+#top-container img {
+    margin: 10px;
+}
+
+#margarita-details img {
+   height: 400px; 
+}
+
+

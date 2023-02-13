@@ -23,13 +23,13 @@ image.className = 'onMouseover'
 }
 
 function renderDetails(drinkObj){
-const h1= document.querySelector(".name")
+const h2= document.querySelector(".name")
 const instructions=document.querySelector(".instructions")
 const glass=document.querySelector (".glass")
 const image= document.querySelector(".image")
 const ingredients= document.querySelector(".ingredients")
 
-h1.innerText= drinkObj.strDrink
+h2.innerText= drinkObj.strDrink
 instructions.innerText=drinkObj.strInstructions
 glass.innerText=drinkObj.strGlass
 image.src=drinkObj.strDrinkThumb

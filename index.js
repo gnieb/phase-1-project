@@ -43,9 +43,13 @@ margForm.addEventListener('submit', (e) => {
     const newDrinkObj = {
         strDrink: e.target.name.value,
         strGlass: e.target.glass.value,
-        strInstructions: e.target.instructions.value
+        strInstructions: e.target.instructions.value,
+        strIngredients: e.target.ingredients.value,
+        strDrinkThumb: e.target.image.value
     }
 
+    renderDrinks(newDrinkObj)
+    margForm.reset()
 
-    console.log(newDrinkObj)
 })
+

@@ -8,13 +8,25 @@
         <div id="top-container"></div>
         
        <div id="margarita-details"> 
-        <h1 class= "name" ></h1>
-        <p class= "instructions"></p>
-        <p class="ingredients"></p>
-        <p class="glass"></p>
-        <img class="image"> 
-
+        <h1 class= "name" >Margarita</h1>
+        <ul class="ingredients">1 1/2 oz Tequila, 1/2 oz Triple sec, 1 oz Lime juice, Salt</ul>
+        <p class="glass">Cocktail Glass</p>
+        <p class= "instructions">Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.</p>
+        <img class="image" src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg"> 
        </div> 
+       <form class="user-form">
+            <label for="name">Name</label>
+                <input type="text" name="name" id="marg-name">
+            <label for="ingredients">Ingredients</label>
+                <input type="text" name="ingredients" id="marg-ingredients">
+            <label for="glass">Glass</label>
+                <input type="text" name="glass" id="marg-glass">
+            <label for="image">Image</label>
+                <input type="text" name="image" id="marg-image">
+            <label for="instructions">Instructions</label>
+                <textarea name="instructions" id="marg-instructions"></textarea>
+            <input type="submit" value="Bottoms Up!" id="submit-marg">
+       </form>  
        
     </body>
 </html>

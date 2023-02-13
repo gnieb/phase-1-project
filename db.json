@@ -7,13 +7,7 @@
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "strIngredient1": "1 1/2 oz Tequila",
-      "strIngredient2": "1/2 oz Triple sec",
-      "strIngredient3": "1 oz Lime juice",
-      "strIngredient4": "Salt",
-      "strIngredient5": null,
-      "strIngredient6": null,
-      "strIngredient7": null
+      "strIngredients": "1 1/2 oz Tequila, 1/2 oz Triple sec, 1 oz Lime juice, Salt"
     },
     {
       "idDrink": "2",
@@ -73,7 +67,7 @@
       "strIngredient4": "1 oz Lemon juice",
       "strIngredient5": "1 oz Strawberries",
       "strIngredient6": "Salt",
-      "strIngredient7": null,
+      "strIngredient7": null
     },
     {
       "idDrink": "6",

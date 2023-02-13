@@ -43,9 +43,9 @@ use Marg #1 as a model for the other 4!
 
 . add click event to the marg pics so that they display the details in the display div
 
-. create a toggle form
-
 . add a submit event to the form, user adds their own marg recipe
+
+. create a toggle form
 
 .add CSS styling
 

@@ -25,6 +25,8 @@ h1 {
 
 ul {
     list-style-type: none;
+    text-align: center;
+    padding: 0;
 }
 
 button {
@@ -47,13 +49,23 @@ button {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #margarita-details {
-    margin: 10px;
-    
+    margin: 25px;
+    width: 100%;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+#margarita-details h3, ul, p {
+margin: 25px, 400px;
+}
+#margarita-details .name {
+    margin: 20px;
 }
 
 #margarita-details img {
    height: 400px; 
-   margin: 20px;
+   margin: 10px;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .onMouseover {

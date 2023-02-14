@@ -1,63 +1,99 @@
 {
   "drinks": [
     {
-      "idDrink": "1",
-      "strDrink": "Margarita",
+      "id": "1",
+      "strDrink": "The Classic Margarita",
       "strCategory": "Ordinary Drink",
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "strIngredient1": ["1 1/2 oz Tequila", "1/2 oz Triple sec", "1 oz Lime juice", "Salt"]
+      "strIngredient1": [
+        "1 1/2 oz Tequila",
+        "1/2 oz Triple sec",
+        "1 oz Lime juice",
+        "Salt"
+      ]
     },
     {
-      "idDrink": "2",
+      "id": "2",
       "strDrink": "Blue Margarita",
       "strCategory": "Ordinary Drink",
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "strIngredient1": ["1 1/2 oz Tequila","1 oz Blue Curacao", "1 oz Lime juice","Coarse Salt"]
-     
+      "strIngredient1": [
+        "1 1/2 oz Tequila",
+        "1 oz Blue Curacao",
+        "1 oz Lime juice",
+        "Coarse Salt"
+      ]
     },
     {
-      "idDrink": "3",
+      "id": "3",
       "strDrink": "Tommy's Margarita",
       "strCategory": "Ordinary Drink",
       "strGlass": "Old-Fashioned glass",
       "strInstructions": "Shake and strain into a chilled cocktail glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
-      "strIngredient1": ["4.5 cl Tequila","1.5 cl Lime Juice", "2 spoons Agave syrup"]
-     
+      "strIngredient1": [
+        "4.5 cl Tequila",
+        "1.5 cl Lime Juice",
+        "2 spoons Agave syrup"
+      ]
     },
     {
-      "idDrink": "4",
+      "id": "4",
       "strDrink": "Whitecap Margarita",
       "strCategory": "Other / Unknown",
       "strGlass": "Margarita/Coupette glass",
       "strInstructions": "Place all ingredients in a blender and blend until smooth. This makes one drink.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
-      "strIngredient1": ["1 cup Ice","2 oz Tequila","1/4 cup Cream of coconut", "3 tblsp fresh Lime juice"]
-      
+      "strIngredient1": [
+        "1 cup Ice",
+        "2 oz Tequila",
+        "1/4 cup Cream of coconut",
+        "3 tblsp fresh Lime juice"
+      ]
     },
     {
-      "idDrink": "5",
+      "id": "5",
       "strDrink": "Strawberry Margarita",
       "strCategory": "Ordinary Drink",
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
-      "strIngredient1": ["1/2 oz Strawberry schnapps","1 oz Tequila","1/2 oz Triple sec","1 oz Lemon juice","1 oz Strawberries"]
-      
+      "strIngredient1": [
+        "1/2 oz Strawberry schnapps",
+        "1 oz Tequila",
+        "1/2 oz Triple sec",
+        "1 oz Lemon juice",
+        "1 oz Strawberries"
+      ]
     },
     {
-      "idDrink": "6",
+      "id": "6",
       "strDrink": "Smashed Watermelon Margarita",
       "strCategory": "Cocktail",
       "strGlass": "Collins glass",
       "strInstructions": "In a mason jar muddle the watermelon and 5 mint leaves together into a puree and strain. Next add the grapefruit juice, juice of half a lime and the tequila as well as some ice. Put a lid on the jar and shake. Pour into a glass and add more ice. Garnish with fresh mint and a small slice of watermelon.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
-      "strIngredient1": ["1/2 cup Watermelon","5 Mint","1/3 Cup Grapefruit Juice","Juice of 1/2 Lime","1 shot Tequila", "Garnish with Watermelon","Garnish with Mint"]
-      
+      "strIngredient1": [
+        "1/2 cup Watermelon",
+        "5 Mint",
+        "1/3 Cup Grapefruit Juice",
+        "Juice of 1/2 Lime",
+        "1 shot Tequila",
+        "Garnish with Watermelon",
+        "Garnish with Mint"
+      ]
+    },
+    {
+      "strDrink": "grace",
+      "strGlass": "martini",
+      "strInstructions": "drink it",
+      "strIngredients": "ice",
+      "strDrinkThumb": "urlxyz",
+      "id": "yLy_h-f"
     }
   ]
 }

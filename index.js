@@ -51,17 +51,17 @@ margForm.addEventListener('submit', (e) => {
         strDrink: e.target.name.value,
         strGlass: e.target.glass.value,
         strInstructions: e.target.instructions.value,
-        strIngredients: e.target.ingredients.value,
+        strIngredients: e.target.ingredients.value
         strDrinkThumb: e.target.image.value
     }
-
-    fetch('http://localhost:3000/drinks', {
+console.log(newDrinkObj)
+    fetch("http://localhost:3000/drinks", {
         method: 'POST',
         headers: {
-            'Content-Type': 'applications/json',
-            'Accept': 'applications/json'
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
         },
-        body: JSON.stringify(newDrinkObj)
+        body: JSON.stringify(newDrinkObj),
     })
 
     renderDrinks(newDrinkObj)

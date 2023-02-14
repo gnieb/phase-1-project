@@ -1,3 +1,4 @@
+
 const topContainer= document.querySelector("#top-container") 
 const margaritaDetails = document.querySelector("#margarita-details")
 const margForm = document.querySelector('form')
@@ -6,10 +7,16 @@ const margForm = document.querySelector('form')
 fetch("http://localhost:3000/drinks")
 .then(r => r.json())
 .then(drinksArray => {
+    renderDetails(drinksArray[0])
     drinksArray.forEach(drink => 
     renderDrinks(drink) 
-    )}
-)
+    )})
+
+
+    
+
+
+
 
 function renderDrinks(drinkObj){
 
@@ -34,9 +41,15 @@ instructions.innerText=drinkObj.strInstructions
 glass.innerText=drinkObj.strGlass
 image.src=drinkObj.strDrinkThumb
 
-ingredients.innerText=drinkObj.strIngredient1
-console.log(ingredients)
 
+
+ingredients.innerHTML=""
+drinkObj.strIngredient1.forEach(ingredient => {
+    const li = document.createElement("li")
+    li.innerText= ingredient
+    ingredients.append(li)
+    
+})
 
 }
 

@@ -55,8 +55,6 @@ margForm.addEventListener('submit', (e) => {
         strDrinkThumb: e.target.image.value
     }
 
-    console.log(newDrinkObj.strIngredients)
-
     fetch("http://localhost:3000/drinks", {
         method: 'POST',
         headers: {
@@ -80,5 +78,16 @@ addButton.addEventListener('click', () => {
         margForm.style.display = "none"}
 })
 
+const submitComment = document.getElementById('comment-form')
+const commentStory = document.querySelector('#comment-story')
 
+submitComment.addEventListener('submit', (e) => {
+    e.preventDefault()
+    
+    const li = document.createElement('li')
+    li.innerText = e.target.comments.value
+    commentStory.append(li)
+    
+    
+})
 

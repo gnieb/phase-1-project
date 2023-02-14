@@ -77,7 +77,7 @@ margin: 25px, 400px;
     font-size: medium;
 }
 
-form {
+#new-marg {
     margin: 1rem 0;
     width: 300px;
     display: none;

@@ -86,17 +86,11 @@
         "Garnish with Watermelon",
         "Garnish with Mint"
       ]
-    },
+    }
+  ],
+  "comments": [
     {
-      "strDrink": "Cadillac",
-      "strGlass": "Cocktail Glass",
-      "strInstructions": "",
-      "strIngredients": [
-        "3 oz. reposado tequila",
-        " 3 oz. freshly squeezed lime juice"
-      ],
-      "strDrinkThumb": "",
-      "id": "OD8D4UM"
+      "comment": "dude you dont wanna know lol" 
     }
   ]
 }

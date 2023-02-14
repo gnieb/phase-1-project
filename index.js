@@ -34,7 +34,10 @@ instructions.innerText=drinkObj.strInstructions
 glass.innerText=drinkObj.strGlass
 image.src=drinkObj.strDrinkThumb
 
-ingredients.innerText = `${drinkObj.strIngredients}`
+ingredients.innerText=drinkObj.strIngredient1
+console.log(ingredients)
+
+
 }
 
 margForm.addEventListener('submit', (e) => {

@@ -7,7 +7,7 @@
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "strIngredient1": [
+      "strIngredients": [
         "1 1/2 oz Tequila",
         "1/2 oz Triple sec",
         "1 oz Lime juice",
@@ -21,7 +21,7 @@
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "strIngredient1": [
+      "strIngredients": [
         "1 1/2 oz Tequila",
         "1 oz Blue Curacao",
         "1 oz Lime juice",
@@ -35,7 +35,7 @@
       "strGlass": "Old-Fashioned glass",
       "strInstructions": "Shake and strain into a chilled cocktail glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
-      "strIngredient1": [
+      "strIngredients": [
         "4.5 cl Tequila",
         "1.5 cl Lime Juice",
         "2 spoons Agave syrup"
@@ -48,7 +48,7 @@
       "strGlass": "Margarita/Coupette glass",
       "strInstructions": "Place all ingredients in a blender and blend until smooth. This makes one drink.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
-      "strIngredient1": [
+      "strIngredients": [
         "1 cup Ice",
         "2 oz Tequila",
         "1/4 cup Cream of coconut",
@@ -62,7 +62,7 @@
       "strGlass": "Cocktail glass",
       "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
-      "strIngredient1": [
+      "strIngredients": [
         "1/2 oz Strawberry schnapps",
         "1 oz Tequila",
         "1/2 oz Triple sec",
@@ -77,7 +77,7 @@
       "strGlass": "Collins glass",
       "strInstructions": "In a mason jar muddle the watermelon and 5 mint leaves together into a puree and strain. Next add the grapefruit juice, juice of half a lime and the tequila as well as some ice. Put a lid on the jar and shake. Pour into a glass and add more ice. Garnish with fresh mint and a small slice of watermelon.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
-      "strIngredient1": [
+      "strIngredients": [
         "1/2 cup Watermelon",
         "5 Mint",
         "1/3 Cup Grapefruit Juice",
@@ -88,12 +88,15 @@
       ]
     },
     {
-      "strDrink": "grace",
-      "strGlass": "martini",
-      "strInstructions": "drink it",
-      "strIngredients": "ice",
-      "strDrinkThumb": "urlxyz",
-      "id": "yLy_h-f"
+      "strDrink": "Cadillac",
+      "strGlass": "Cocktail Glass",
+      "strInstructions": "",
+      "strIngredients": [
+        "3 oz. reposado tequila",
+        " 3 oz. freshly squeezed lime juice"
+      ],
+      "strDrinkThumb": "",
+      "id": "OD8D4UM"
     }
   ]
 }

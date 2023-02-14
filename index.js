@@ -37,7 +37,7 @@ function renderDetails(drinkObj){
     image.src=drinkObj.strDrinkThumb
 
     ingredients.innerHTML=""
-    drinkObj.strIngredient1.forEach(ingredient => {
+    drinkObj.strIngredients.forEach(ingredient => {
         const li = document.createElement("li")
         li.innerText= ingredient
         ingredients.append(li)
@@ -51,10 +51,12 @@ margForm.addEventListener('submit', (e) => {
         strDrink: e.target.name.value,
         strGlass: e.target.glass.value,
         strInstructions: e.target.instructions.value,
-        strIngredients: e.target.ingredients.value
+        strIngredients: (e.target.ingredients.value).split(","),
         strDrinkThumb: e.target.image.value
     }
-console.log(newDrinkObj)
+
+    console.log(newDrinkObj.strIngredients)
+
     fetch("http://localhost:3000/drinks", {
         method: 'POST',
         headers: {

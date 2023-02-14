@@ -55,6 +55,15 @@ margForm.addEventListener('submit', (e) => {
         strDrinkThumb: e.target.image.value
     }
 
+    fetch('http://localhost:3000/drinks', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'applications/json',
+            'Accept': 'applications/json'
+        },
+        body: JSON.stringify(newDrinkObj)
+    })
+
     renderDrinks(newDrinkObj)
     margForm.reset()
 })

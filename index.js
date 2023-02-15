@@ -78,8 +78,22 @@ addButton.addEventListener('click', () => {
         margForm.style.display = "none"}
 })
 
+addButton.addEventListener('mouseover', () => {
+    addButton.className = 'onMouseover'}
+)
+
 const submitComment = document.getElementById('comment-form')
 const commentStory = document.querySelector('#comment-story')
+const submitMargButton = document.querySelector('#submit-marg')
+const submitCommentButton = document.querySelector('#submit-comment')
+
+submitMargButton.addEventListener('mouseover', () => {
+    submitMargButton.className = 'onMouseover'}
+)
+
+submitCommentButton.addEventListener('mouseover', () => {
+    submitCommentButton.className = 'onMouseover'}
+)
 
 submitComment.addEventListener('submit', (e) => {
     e.preventDefault()

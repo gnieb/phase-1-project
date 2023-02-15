@@ -1,19 +1,31 @@
 // 
-const topContainer= document.querySelector("#top-container") 
+const topContainer = document.querySelector("#top-container") 
 const margaritaDetails = document.querySelector("#margarita-details")
 const margForm = document.querySelector('form')
-
+const submitComment = document.getElementById('comment-form')
+const commentStory = document.querySelector('#comment-story')
+const addButton = document.getElementById('add-new-marg')
+let addMarg = false
 
 fetch("http://localhost:3000/drinks")
-    .then(r => r.json())
-    .then(drinksArray => {
+.then(r => r.json())
+.then(drinksArray => {
         renderDetails(drinksArray[0])
 
         drinksArray.forEach(drink => 
-        renderDrinks(drink) 
-)})
+            renderDrinks(drink))
+})
 
-function renderDrinks(drinkObj){
+fetch('http://localhost:3000/comments')
+.then(r => r.json())
+.then(commentsArray => {
+
+        commentsArray.forEach(comment =>
+            renderComments(comment))
+        
+})
+
+renderDrinks = (drinkObj) => {
     const image = document.createElement("img")
     image.src = drinkObj.strDrinkThumb
     topContainer.append(image)
@@ -24,28 +36,34 @@ function renderDrinks(drinkObj){
     )
 }
 
-function renderDetails(drinkObj){
-    const h2= document.querySelector(".name")
-    const instructions=document.querySelector(".instructions")
-    const glass=document.querySelector (".glass")
-    const image= document.querySelector(".image")
-    const ingredients= document.querySelector(".ingredients")
+renderComments = (commentObj) => {
+    const li = document.createElement('li')
+    li.innerText = commentObj.comment
+    commentStory.append(li)
+}
 
-    h2.innerText= drinkObj.strDrink
-    instructions.innerText=drinkObj.strInstructions
-    glass.innerText=drinkObj.strGlass
-    image.src=drinkObj.strDrinkThumb
+renderDetails = (drinkObj) => {
+    const h2 = document.querySelector(".name")
+    const instructions = document.querySelector(".instructions")
+    const glass = document.querySelector (".glass")
+    const image = document.querySelector(".image")
+    const ingredients = document.querySelector(".ingredients")
 
-    ingredients.innerHTML=""
+    h2.innerText = drinkObj.strDrink
+    instructions.innerText = drinkObj.strInstructions
+    glass.innerText = drinkObj.strGlass
+    image.src = drinkObj.strDrinkThumb
+
+    ingredients.innerHTML = ""
     drinkObj.strIngredients.forEach(ingredient => {
         const li = document.createElement("li")
-        li.innerText= ingredient
+        li.innerText = ingredient
         ingredients.append(li)
     })
 }
 
 margForm.addEventListener('submit', (e) => {
-    e.preventDefault()
+e.preventDefault()
 
     const newDrinkObj = {
         strDrink: e.target.name.value,
@@ -68,8 +86,6 @@ margForm.addEventListener('submit', (e) => {
     margForm.reset()
 })
 
-let addMarg = false
-const addButton = document.getElementById('add-new-marg')
 addButton.addEventListener('click', () => {
     addMarg = !addMarg
     if (addMarg) {
@@ -77,23 +93,6 @@ addButton.addEventListener('click', () => {
     else {
         margForm.style.display = "none"}
 })
-
-addButton.addEventListener('mouseover', () => {
-    addButton.className = 'onMouseover'}
-)
-
-const submitComment = document.getElementById('comment-form')
-const commentStory = document.querySelector('#comment-story')
-const submitMargButton = document.querySelector('#submit-marg')
-const submitCommentButton = document.querySelector('#submit-comment')
-
-submitMargButton.addEventListener('mouseover', () => {
-    submitMargButton.className = 'onMouseover'}
-)
-
-submitCommentButton.addEventListener('mouseover', () => {
-    submitCommentButton.className = 'onMouseover'}
-)
 
 submitComment.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -105,8 +104,8 @@ submitComment.addEventListener('submit', (e) => {
 
     const newStoryObj = {
         comment: e.target.comments.value
-
     }
+
     fetch("http://localhost:3000/comments", {
     method: 'POST',
     headers: {
@@ -115,9 +114,5 @@ submitComment.addEventListener('submit', (e) => {
         },
         body: JSON.stringify(newStoryObj),
     })
-    
-
-
-
 })
 

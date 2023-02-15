@@ -4,6 +4,15 @@
     box-sizing: border-box;
   }
 
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 body {
     padding: 1rem;
     text-align: center;
@@ -12,6 +21,10 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image: url("https://www.seriouseats.com/thmb/CapRohi9IrrbOwYZoKV63zogerM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__04__20150323-cocktails-vicky-wasik-margarita-c84b154e757d43688de15dc8f8ca0de9.jpg");
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
 }
 
 h1 {
@@ -111,3 +124,5 @@ input {
   border-radius: 10px; 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+

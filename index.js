@@ -87,7 +87,23 @@ submitComment.addEventListener('submit', (e) => {
     const li = document.createElement('li')
     li.innerText = e.target.comments.value
     commentStory.append(li)
+    submitComment.reset()
+
+    const newStoryObj = {
+        comment: e.target.comments.value
+
+    }
+    fetch("http://localhost:3000/comments", {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+        },
+        body: JSON.stringify(newStoryObj),
+    })
     
-    
+
+
+
 })
 

@@ -8,7 +8,8 @@
     <body>
         <h1> Welcome to Meowgaritaville</h1>
         <div id="top-container"></div>
-        
+    <div class = "row">
+    <div class = "column">
        <div id="margarita-details"> 
         <h2 class= "name" >The Classic Margarita</h2>
         <h3 id ="ingredients-space">Ingredients:</h3>
@@ -18,9 +19,11 @@
         <h3 id =instructions-space>Cocktail Instructions:</h3>
         <p class= "instructions">Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.</p>
         <img class="image" src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg"> 
-       </div> 
+       </div>
+    </div> 
+    <div class = "column" >
+       <button id ="add-new-marg" >Add Your Own Margarita!</button>
        <div id="form-wrapper">
-        <button id ="add-new-marg" >Add Your Own Margarita!</button>
         <form id="new-marg" class="user-form">
             <label for="name">Name</label>
                 <input type="text" name="name" id="marg-name" placeholder="Margarita">
@@ -42,8 +45,8 @@
                 <input type="submit" value="Submit" id="submit-comment">
             </form>
         </div>
-        <div id="comment-story">
-
-        </div>
+        <div id="comment-story"></div>
+    </div>
+    </div>
     </body>
 </html>

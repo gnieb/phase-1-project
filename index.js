@@ -73,7 +73,7 @@ const addButton = document.getElementById('add-new-marg')
 addButton.addEventListener('click', () => {
     addMarg = !addMarg
     if (addMarg) {
-        margForm.style.display = "block"}
+        margForm.style.display = "inline-block"}
     else {
         margForm.style.display = "none"}
 })

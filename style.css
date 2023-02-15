@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 25px;
     font-family: monospace, Helvetica, sans-serif;
     box-sizing: border-box;
   }
@@ -12,6 +12,15 @@
         opacity: 1;
      }
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    /* margin: auto; */
+  }
 
 body {
     padding: 1rem;

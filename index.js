@@ -96,16 +96,11 @@ addButton.addEventListener('click', () => {
 
 submitComment.addEventListener('submit', (e) => {
     e.preventDefault()
-    
-    const li = document.createElement('li')
-    li.innerText = e.target.comments.value
-    commentStory.append(li)
-    submitComment.reset()
 
     const newStoryObj = {
         comment: e.target.comments.value
     }
-
+    
     fetch("http://localhost:3000/comments", {
     method: 'POST',
     headers: {
@@ -113,6 +108,10 @@ submitComment.addEventListener('submit', (e) => {
         'Accept': 'application/json'
         },
         body: JSON.stringify(newStoryObj),
-    })
+    }) 
+    const li = document.createElement('li')
+    li.innerText = e.target.comments.value
+    commentStory.append(li)
+    submitComment.reset()
 })
 

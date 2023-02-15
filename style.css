@@ -72,22 +72,35 @@ button {
 }
 #margarita-details {
     margin: 25px;
+    padding: 25px;
     width: 100%;
-    /* flex-direction: column;
-    align-items: center; */
+    position: relative;
+}
+#background-of-details {
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #margarita-details h3, ul, p {
 margin: 25px, 400px;
+opacity: 1;
+position: relative;
 }
 #margarita-details .name {
     margin: 20px;
+    position: relative;
 }
 
 #margarita-details img {
    height: 400px; 
    margin: 10px;
    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   position: relative;
 }
 
 .onMouseover {

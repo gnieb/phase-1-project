@@ -69,8 +69,8 @@ e.preventDefault()
         strDrink: e.target.name.value,
         strGlass: e.target.glass.value,
         strInstructions: e.target.instructions.value,
-        strIngredients: (e.target.ingredients.value).split(","),
-        strDrinkThumb: e.target.image.value
+        strDrinkThumb: e.target.image.value,
+        strIngredients: (e.target.ingredients.value).split(",")
     }
 
     fetch("http://localhost:3000/drinks", {

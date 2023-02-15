@@ -4,13 +4,13 @@
       "id": "1",
       "strDrink": "The Classic Margarita",
       "strGlass": "Margarita glass",
-      "strInstructions": "Prepare a cocktail or rocks glass with a salted rim. Add all of the ingredients except for the lime wedge to a cocktail shaker. Add ice and shake until chilled. Strain into the cocktail glass or ice filled rocks glass and garnish with a lime wedge! ",
+      "strInstructions": "Prepare a cocktail or rocks glass with a salted rim. Add all of the ingredients, except for the lime wedge, to a cocktail shaker. Add ice and shake until chilled. Strain into a margarita or ice filled rocks glass and garnish with a lime wedge! ",
       "strDrinkThumb": "https://assets.bonappetit.com/photos/5b69f16006027f654a27cd19/1:1/w_1920,c_limit/ba-margarita-1.jpg",
       "strIngredients": [
-        "Salt",
         "1½ oz. blanco tequila",
         "1 oz. lime juice",
         "½ oz. orange liqueur",
+        "Salt",
         "1 teaspoon agave",
         "Lime wedge, for garnish"
       ]
@@ -19,13 +19,13 @@
       "id": "2",
       "strDrink": "Cadillac Margarita",
       "strGlass": "Margarita glass",
-      "strInstructions": "Prepare a cocktail or rocks glass with a salted rim. Add all of the ingredients except for the lime wedge to a cocktail shaker. Add ice and shake until chilled. Strain into the cocktail glass or ice filled rocks glass and garnish with a lime wedge! ",
+      "strInstructions": "Prepare a cocktail or rocks glass with a salted rim. Add all of the ingredients, except for the lime wedge, to a cocktail shaker. Add ice and shake until chilled. Strain into a margarita or ice filled rocks glass and garnish with a lime wedge! ",
       "strDrinkThumb": "https://hips.hearstapps.com/hmg-prod/images/cadillac-margarita-recipe-1647387218.jpg?crop=0.646xw:1.00xh;0.200xw,0&resize=1200:*",
       "strIngredients": [
-        "Coarse Salt",
         "1½ oz. reposado tequila",
         "1 oz. lime juice",
         "½ oz. Grand Marnier",
+        "Coarse Salt",
         "1 teaspoon agave",
         "Lime wedge, for garnish"
       ]
@@ -34,7 +34,7 @@
       "id": "3",
       "strDrink": "Spicy Kiwi Mint Margarita",
       "strGlass": "Margarita glass",
-      "strInstructions": "After saving a few slices for garnish, blend leftover kiwi for purée. Combine 3 ounces of kiwi purée with a few slices of jalapeño, mint leaves, and all other ingredients but the lime wedge into cocktail shaker. Add ice and shake until chilled. Strain into your cocktail glass filled with crushed ice and garnish with a lime wedge!",
+      "strInstructions": "After saving a few slices for garnish, blend leftover kiwi for purée. Combine 3 ounces of kiwi purée with a few slices of jalapeño, mint leaves, and all other ingredients, except the lime wedge, into a cocktail shaker. Add ice and shake until chilled. Strain into your margarita glass filled with crushed ice and garnish with a kiwi slice!",
       "strDrinkThumb": "https://saltandwind.com/wp-content/uploads/2022/05/chili-kiwi-margarita-recipe_h-1-768x512.jpg",
       "strIngredients": [
         "1½ oz. silver tequila",
@@ -50,7 +50,7 @@
       "id": "4",
       "strDrink": "Paloma",
       "strGlass": "Highball",
-      "strInstructions": "Fill a highball glass two-thirds full with ice. Pour in about 2 oz. grapefruit soda, blanco tequila, lime juice, grapefruit juice and a pinch of salt. Top with remaining grapefruit soda, stir gently, and garnish with a grapefruit wedge.",
+      "strInstructions": "Fill a highball glass two-thirds full with ice. Pour in about 2 oz. grapefruit soda, blanco tequila, lime juice, grapefruit juice and a pinch of salt. Top with remaining grapefruit soda, stir gently, and garnish with a grapefruit wedge!",
       "strDrinkThumb": "https://assets.epicurious.com/photos/6282a5e032116283cbeb3628/1:1/w_1920,c_limit/Paloma_RECIPE_051222_34035.jpg",
       "strIngredients": [
         "4 oz. grapefruit soda",
@@ -65,7 +65,7 @@
       "id": "5",
       "strDrink": "Coconut Margarita",
       "strGlass": "Margarita Glass",
-      "strInstructions": "For a coconut rim, use honey to swirl on toasted coconut. Pour cream of coconut, tequila, ornage liqueur and lime juice into a cocktail shaker, add ice and shake until chilled. Strain into garnished margarita glass and garnish with a lime wedge!",
+      "strInstructions": "For a coconut rim, use honey to swirl on toasted coconut. Pour cream of coconut, tequila, orange liqueur and lime juice into a cocktail shaker, add ice and shake until chilled. Strain into your garnished margarita glass and garnish with a lime wedge!",
       "strDrinkThumb": "https://burrataandbubbles.com/wp-content/uploads/2020/10/coconut-margarita.jpg",
       "strIngredients": [
         "2 oz. reposado tequila",
